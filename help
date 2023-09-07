@@ -1,0 +1,25 @@
+#!/bin/bash
+
+output_file="allfiles"
+
+# Remove existing "allfiles" if it exists
+rm -f "$output_file"
+
+# Loop through files in the current directory
+for file in [0-9]*; do
+	    if [ -f "$file" ]; then
+		            # Append the filename to "allfiles"
+			            echo "File: $file" >> "$output_file"
+				            echo >> "$output_file"  # Insert a blank line
+
+					            # Append the content of the file to "allfiles"
+						            cat "$file" >> "$output_file"
+
+							            # Insert two blank lines between files
+								            echo >> "$output_file"
+									            echo >> "$output_file"
+										        fi
+										done
+
+										echo "Content of all files starting with numbers in the current directory has been written to '$output_file'."
+
