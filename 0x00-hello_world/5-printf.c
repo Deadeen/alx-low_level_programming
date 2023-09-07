@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - entry
+ * main - Entry point
  *
- * desc : C tha print with pf
+ * Description: A C program that prints with printf function.
  *
- * return 0
+ * Return: Always 0 (Success)
 */
 
 int main(void)
