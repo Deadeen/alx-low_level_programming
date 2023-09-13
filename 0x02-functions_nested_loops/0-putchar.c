@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - This is the entry point of the code
- *
- * Description: just printf very simble
- *
- * Return - Always 0 (Success)
+ * *main - function prints text as output
+ * *
+ * *Return:return 0
 */
 
 int main(void)
