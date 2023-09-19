@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int pass[100];
+	int pswd[100];
 	int i, sum, n;
 
 	sum = 0;	
@@ -19,9 +19,9 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		pass[i] = rand() % 78;
-		sum += (pass[i] + '0');
-		putchar(pass[i] + '0');
+		pswd[i] = rand() % 78;
+		sum += (pswd[i] + '0');
+		putchar(pswd[i] + '0');
 		if ((2772 - sum) - '0' < 78)
 		{
 			n = 2772 - sum - '0';
