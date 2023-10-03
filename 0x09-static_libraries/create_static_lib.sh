@@ -1,2 +1,4 @@
 #!/bin/bash
-mkdir -p temp_obj
+gcc -Wall -pedantic -Werror -Wextra -c *.c
+ar -rc liball.a *.o
+ranlib liball.a
