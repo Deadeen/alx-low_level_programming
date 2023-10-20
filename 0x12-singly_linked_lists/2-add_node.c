@@ -8,7 +8,7 @@
  * @my_str: new string to add in the node
  *
  * Return: the address of the new element, or NULL if it fails
- */
+*/
 my_list_t *my_add_node(my_list_t **my_head, const char *my_str)
 {
     my_list_t *my_new;
