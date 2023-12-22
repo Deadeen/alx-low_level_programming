@@ -1,6 +1,6 @@
 /*
  * File: 2-key_index.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: None of buseness
 */
 
 #include "hash_tables.h"
