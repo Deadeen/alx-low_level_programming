@@ -1,6 +1,6 @@
 /*
  * File: 4-hash_table_get.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: None of buseness
 */
 
 #include "hash_tables.h"
