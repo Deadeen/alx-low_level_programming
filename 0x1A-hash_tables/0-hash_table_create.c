@@ -1,6 +1,6 @@
 /*
  * File: 0-hash_table_create.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: None of buseness
  */
 
 #include "hash_tables.h"
