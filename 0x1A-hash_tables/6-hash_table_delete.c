@@ -1,6 +1,6 @@
 /*
  * File: 6-hash_table_delete.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: None of buseness
 */
 
 #include "hash_tables.h"
